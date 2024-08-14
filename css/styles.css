@@ -290,7 +290,8 @@ img {
 
 }
 .container-workers {
-  padding: 32px 16px;
+
+  padding: 32px 0
 
 }
 
@@ -324,7 +325,7 @@ img {
 }
 
 .li-social-icons {
-  width: 40px; 
+ width: 40px;
   height: 40px; 
 }
 
@@ -345,10 +346,7 @@ img {
 .link-social-icons:hover {
   background-color: #404bbf;
 }
-.link-instagram:focus,
-.link-twitter:focus,
-.link-facebook:focus,
-.link-linkedin:focus {
+.link-social-icons:focus {
   background-color: #404bbf;
 }
 
@@ -410,11 +408,11 @@ img {
 .container-footer{
  display: flex;
  margin-left: 156px;
-
- 
+align-items: baseline, 
+ margin-right: 120px
 }
 .container-footer-dox {
-margin-left: 120px;
+
 }
 .footer-dox {
 }
