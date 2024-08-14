@@ -288,22 +288,38 @@ img {
 .list-traling-icons {
   list-style-type: none;
 }
-.li-instagram {
+.container-icon {
 }
-.link-instagram {
+.icon {
+  fill: #ffffff;
 }
-.li-twitter {
-}
-.link-twitter {
-}
-.li-facebook {
-}
-.link-facebook {
-}
+
+.li-instagram,
+.li-twitter,
+.li-facebook,
 .li-linkedin {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.li-instagram:hover,
+.li-twitter:hover,
+.li-facebook:hover,
+.li-linkedin:hover {
+  background-color: #404bbf;
+}
+
+.link-instagram,
+.link-twitter,
+.link-facebook,
 .link-linkedin {
 }
+
 .section-third {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -335,6 +351,10 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.li-portfolio:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .title-portfolio {
