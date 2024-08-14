@@ -277,6 +277,7 @@ img {
   list-style-type: none;
   display: flex;
   gap: 24px;
+  
 
   flex-direction: row;
   justify-content: center;
@@ -286,7 +287,8 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   overflow: hidden;
   display: flex;
 }
@@ -311,6 +313,9 @@ img {
 }
 .list-traling-icons {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .container-icon {
 }
@@ -398,6 +403,15 @@ img {
   background: #2e2f42;
   padding: 100px 0;
 }
+.container-footer{
+  height: 112px;
+}
+.container-footer-dox {
+
+}
+.footer-dox {
+}
+
 .text-footer {
   font-size: 16px;
   line-height: 150%;
@@ -405,6 +419,11 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
+
+.text-footer-color {
+color: #fff;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -422,6 +441,3 @@ img {
   color: #f4f4fd;
 }
 
-.container-footer{
- 
-}
