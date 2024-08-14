@@ -320,34 +320,50 @@ img {
 .container-icon {
 }
 .icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
+  
 }
 
 .li-instagram,
 .li-twitter,
 .li-facebook,
 .li-linkedin {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .li-instagram:hover,
 .li-twitter:hover,
 .li-facebook:hover,
 .li-linkedin:hover {
-  background-color: #404bbf;
+  
 }
 
 .link-instagram,
 .link-twitter,
 .link-facebook,
 .link-linkedin {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
+
+.link-instagram:hover,
+.link-twitter:hover,
+.link-facebook:hover,
+.link-linkedin:hover {
+  background-color: #404bbf;
+}
+.link-instagram:focus,
+.link-twitter:focus,
+.link-facebook:focus,
+.link-linkedin:focus {
+  background-color: #404bbf;
+}
+
 
 .section-third {
   padding-top: 120px;
