@@ -242,7 +242,7 @@ img {
   margin-bottom: 24px;
 }
 
-. .title-advantages {
+.title-advantages {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -277,9 +277,6 @@ img {
   list-style-type: none;
   display: flex;
   gap: 24px;
-  
-
-  flex-direction: row;
   justify-content: center;
 }
 .li-team {
@@ -290,10 +287,11 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   overflow: hidden;
-  display: flex;
+
 }
 .container-workers {
-  padding: 32px 0;
+  padding: 32px 16px;
+
 }
 
 .title-workers {
@@ -316,6 +314,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 0;
 }
 .container-icon {
 }
@@ -324,24 +323,16 @@ img {
   
 }
 
-.li-instagram,
-.li-twitter,
-.li-facebook,
-.li-linkedin {
- 
+.li-social-icons {
+  width: 40px; 
+  height: 40px; 
 }
 
-.li-instagram:hover,
-.li-twitter:hover,
-.li-facebook:hover,
-.li-linkedin:hover {
+.li-social-icons:hover {
   
 }
 
-.link-instagram,
-.link-twitter,
-.link-facebook,
-.link-linkedin {
+.link-social-icons {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -351,10 +342,7 @@ img {
   border-radius: 50%;
 }
 
-.link-instagram:hover,
-.link-twitter:hover,
-.link-facebook:hover,
-.link-linkedin:hover {
+.link-social-icons:hover {
   background-color: #404bbf;
 }
 .link-instagram:focus,
@@ -420,10 +408,13 @@ img {
   padding: 100px 0;
 }
 .container-footer{
-  height: 112px;
+ display: flex;
+ margin-left: 156px;
+
+ 
 }
 .container-footer-dox {
-
+margin-left: 120px;
 }
 .footer-dox {
 }
@@ -437,7 +428,9 @@ img {
 }
 
 .text-footer-color {
-color: #fff;
+  margin: 0;
+  margin-bottom: 16px;
+  color: #fff;
 }
 
 .logo-footer {
