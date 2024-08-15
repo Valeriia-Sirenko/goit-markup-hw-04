@@ -201,7 +201,8 @@ img {
 .button-servise:focus {
   background: #404bbf;
 }
-/* перша секція */
+
+/*----- перша секція --------------------------------------*/
 
 .section-first {
   padding: 120px 0;
@@ -258,7 +259,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-/*----- другий мадуль -----------------------------------*/
+/*----- 2 мадуль -----------------------------------*/
 
 .section-second {
   background: #f4f4fd;
@@ -430,6 +431,7 @@ img {
   margin-left: 156px;
   align-items: baseline;
   margin-right: 120px;
+  gap: 16px;
 }
 .container-footer-dox-inf {
   align-items: baseline;
@@ -443,6 +445,7 @@ img {
   gap: 16px;
 }
 .li-footer-icons {
+  gap: 16px;
   width: 40px;
   height: 40px;
 }
