@@ -431,7 +431,6 @@ img {
   margin-left: 156px;
   align-items: baseline;
   margin-right: 120px;
-  gap: 16px;
 }
 .container-footer-dox-inf {
   align-items: baseline;
@@ -442,6 +441,8 @@ img {
 
 .list-footer-icons {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
   gap: 16px;
 }
 .li-footer-icons {
