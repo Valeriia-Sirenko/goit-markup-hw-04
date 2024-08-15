@@ -34,17 +34,6 @@ img {
   box-sizing: border-box;
 }
 
-::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-
 /* хедер */
 .header-information {
   border-bottom: 1px solid #e7e9fc;
@@ -103,7 +92,19 @@ img {
   display: block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.activated::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
   color: #404bbf;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+ {
 }
 
 .link-information:hover,
@@ -145,13 +146,13 @@ img {
   background: #2e2f42;
   text-align: center;
   padding: 188px 0;
-
+  margin: auto;
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,6 +225,7 @@ img {
   list-style-type: none;
   display: flex;
   gap: 24px;
+  padding-left: 0;
 }
 .li-advantages {
   width: calc((100% - 72px) / 4);
@@ -257,6 +259,7 @@ img {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 /*----- 2 мадуль -----------------------------------*/
@@ -364,6 +367,7 @@ img {
   color: #2e2f42;
 }
 .list-portfolio {
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -418,6 +422,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 /*------ FOOTTER -----------------------------------------------*/
@@ -428,9 +433,8 @@ img {
 }
 .container-footer {
   display: flex;
-  margin-left: 156px;
+
   align-items: baseline;
-  margin-right: 120px;
 }
 .container-footer-dox-inf {
   align-items: baseline;
@@ -444,6 +448,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
+  padding-left: 0;
 }
 .li-footer-icons {
   width: 40px;
@@ -470,6 +475,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin: 0;
 }
 
 .text-footer-color {
